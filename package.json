@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/nodemon/bin/nodemon.js --experimental-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.1.2"
+  }
+}
